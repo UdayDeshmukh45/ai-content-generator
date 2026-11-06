@@ -1,0 +1,210 @@
+export default  [
+    {
+        name: 'Write Code',
+        desc: 'AI Model to generate programming code in any language',
+        icon:'https://cdn-icons-png.flaticon.com/128/6062/6062646.png',
+        category: 'Coding',
+       
+        slug: 'write-code',
+        aiPrompt: 'Depends on user codeDescription write a code and give output in  in rich text editor format in code block ',
+        form: [
+            {
+                label: 'Enter description of code you want along with Programming Lang',
+                field: 'textarea',
+                name: 'codeDesscripton',
+                required:true
+            },
+           
+        ]
+    },
+    {
+        name:'Blog Title',
+        desc:'An AI tool that generate blog title depends on yout blog information',
+        category:'Blog',
+        icon:'https://cdn-icons-png.flaticon.com/128/4186/4186534.png',
+        aiPrompt:'Give me 5 blog topic idea in bullet wise only based on give niche & outline and give me result in Rich text editor format',
+        slug:'generate-blog-title',
+        form:[
+            {
+                label:'Enter your blog niche',
+                field:'input',
+                name:'niche',
+                required:true
+            },
+            {
+                label:'Enter blog outline',
+                field:'textarea',
+                name:'outline',
+                
+            }
+        ]
+    },
+    {
+        name: 'Blog Content',
+        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        category: 'blog',
+        icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
+        slug: 'blog-content-generation',
+        aiPrompt: 'Generate Blog Content based on topic and outline in rich text editor format',
+        form: [
+            {
+                label: 'Enter your blog topic',
+                field: 'input',
+                name: 'topic',
+                required:true
+            },
+            {
+                label: 'Enter blog Outline here',
+                field: 'textarea',
+                name: 'outline'
+            }
+        ]
+    },
+    {
+        name: 'Blog Topic Ideas',
+        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        category: 'Blog',
+        icon: 'https://cdn-icons-png.flaticon.com/128/11497/11497847.png',
+        slug: 'blog-topic-idea',
+        aiPrompt: 'Generate top 5 Blog Topic Ideas in bullet point only, (no Description) based on niche in rich text editor format',
+        form: [
+            {
+                label: 'Enter your Niche',
+                field: 'input',
+                name: 'niche',
+                required:true
+            },
+        ]
+    },
+
+    {
+
+        name: 'Youtube Description',
+        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        category: 'Youtube Tool',
+        icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111748.png',
+        slug: 'youtube-description',
+        aiPrompt: 'Generate Youtube description with emoji under 4-5 lines based on topic and outline in rich text editor format',
+        form: [
+            {
+                label: 'Enter your blog topic/title',
+                field: 'input',
+                name: 'topic',
+                required:true
+            },
+            {
+                label: 'Enter youtube Outline here',
+                field: 'textarea',
+                name: 'outline'
+            }
+        ]
+    },
+
+    {
+        name: 'Rewrite Article (Plagiarism Free)',
+        desc: 'Use this tool to rewrite existing Article or Blog Post which can bypass AI detectors and also make it plagiarism free.',
+        icon: 'https://cdn-icons-png.flaticon.com/128/3131/3131607.png',
+        category: 'Rewriting Tool',
+        slug: 'rewrite-article',
+        aiPrompt: 'Rewrite give article without any Plagiarism in rich text editor format',
+        form: [
+            {
+                label: '🤖 Provide your Article/Blogpost or any other content to rewrite.',
+                field: 'textarea',
+                name: 'article',
+                required:true
+            }
+        ]
+    },
+    {
+        name: 'Text Improver',
+        desc: 'This handy tool refines your writing, eliminating errors and redundancies for a clear, readable result. It also offers a comprehensive tone analysis and suggests better word choices.',
+        icon: 'https://cdn-icons-png.flaticon.com/128/1686/1686815.png',
+        category: 'Writing Assistant',
+        slug: 'text-improver',
+        aiPrompt: 'Given textToImprove, Rewrite text without any grammar mistake and professionally in rich text editor format',
+        form: [
+            {
+                label: 'Enter text that you want to re-write or improve',
+                field: 'textarea',
+                name: 'textToImprove'
+            }
+        ]
+    },
+    {
+        name: 'Instagram Post Generator',
+        desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
+        icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
+        category: 'blog',
+       
+        slug: 'instagram-post-generator',
+        aiPrompt: 'Generate 3 Instagram post depends on a given keywords and give output in  in rich text editor format',
+        form: [
+            {
+                label: 'Enter Keywords for your post',
+                field: 'input',
+                name: 'keywords',
+                required:true
+            },
+           
+        ]
+    },
+    {
+        name: 'English Grammer Check',
+        desc: 'AI Model to Correct your english grammer by providing the text',
+        icon:'https://cdn-icons-png.flaticon.com/128/12596/12596700.png',
+        category: 'english',
+       
+        slug: 'english-grammer-checker',
+        aiPrompt: 'Rewrite the inputText by correcting the grammer and give output in  in rich text editor format',
+        form: [
+            {
+                label: 'Enter text to correct the grammer',
+                field: 'input',
+                name: 'inputText',
+                required:true
+            },
+           
+        ]
+    },
+    {
+        name: 'Explain Code',
+        desc: 'AI Model to explain programming code in any language',
+        icon:'https://cdn-icons-png.flaticon.com/128/8488/8488751.png',
+        category: 'Coding',
+       
+        slug: 'explain-code',
+        aiPrompt: 'Depends on user codeDescription explain code line by line and give output in  in rich text editor format in code block ',
+        form: [
+            {
+                label: 'Enter code which you want to understand',
+                field: 'textarea',
+                name: 'codeDesscripton',
+                required:true
+            },
+           
+        ]
+    },
+    {
+        name: 'Code Bug Detector',
+        desc: 'This tool analyzes your input, like error messages and code snippets, to pinpoint and fix bugs, offering detailed solutions and alternatives in a straightforward, user-friendly way.',
+        icon:'https://cdn-icons-png.flaticon.com/128/4426/4426267.png',
+        category: 'code-bug-detector',
+       
+        slug: 'code-bug-detector',
+        aiPrompt: 'Depends on user codeInput find bug in code and give solution and give output in  in rich text editor format in code block ',
+        form: [
+            {
+                label: 'Enter code which you want to test bug',
+                field: 'textarea',
+                name: 'codeInput',
+                required:true
+            },
+           
+        ]
+    },
+   
+
+
+
+]
