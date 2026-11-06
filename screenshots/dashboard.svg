@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="#f1f5f9"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="0" width="230" height="680" fill="#ffffff" filter="url(#shadow)"/>
+  
+  <!-- Logo -->
+  <g transform="translate(35, 28)">
+    <circle cx="22" cy="22" r="18" fill="url(#primaryGrad)"/>
+    <text x="22" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="900" fill="#fff" text-anchor="middle">AI</text>
+    <text x="50" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Creator</text>
+  </g>
+  <line x1="20" y1="75" x2="210" y2="75" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Nav Items -->
+  <!-- Home Active -->
+  <rect x="20" y="95" width="190" height="42" rx="8" fill="#4f46e5"/>
+  <circle cx="45" cy="116" r="8" fill="#ffffff" opacity="0.9"/>
+  <text x="65" y="122" font-family="sans-serif" font-size="14" font-weight="600" fill="#ffffff">Home</text>
+
+  <!-- History -->
+  <rect x="20" y="145" width="190" height="42" rx="8" fill="transparent"/>
+  <circle cx="45" cy="166" r="8" fill="#94a3b8"/>
+  <text x="65" y="172" font-family="sans-serif" font-size="14" font-weight="500" fill="#64748b">History</text>
+
+  <!-- Settings -->
+  <rect x="20" y="195" width="190" height="42" rx="8" fill="transparent"/>
+  <circle cx="45" cy="216" r="8" fill="#94a3b8"/>
+  <text x="65" y="222" font-family="sans-serif" font-size="14" font-weight="500" fill="#64748b">Settings</text>
+
+  <!-- Credits Card -->
+  <g transform="translate(20, 560)">
+    <rect width="190" height="95" rx="10" fill="#4f46e5"/>
+    <text x="15" y="26" font-family="sans-serif" font-size="12" font-weight="600" fill="#ffffff">Credits Usage</text>
+    <rect x="15" y="40" width="160" height="8" rx="4" fill="#818cf8"/>
+    <rect x="15" y="40" width="60" height="8" rx="4" fill="#ffffff"/>
+    <text x="15" y="68" font-family="sans-serif" font-size="11" fill="#e0e7ff">3,500 / 10,000 words</text>
+    <text x="15" y="84" font-family="sans-serif" font-size="10" fill="#c7d2fe">Free Tier Plan</text>
+  </g>
+
+  <!-- Top Header -->
+  <rect x="230" y="0" width="970" height="70" fill="#ffffff" filter="url(#shadow)"/>
+  <g transform="translate(255, 17)">
+    <rect width="320" height="36" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <circle cx="20" cy="18" r="6" stroke="#94a3b8" stroke-width="2" fill="none"/>
+    <line x1="24" y1="22" x2="29" y2="27" stroke="#94a3b8" stroke-width="2"/>
+    <text x="40" y="23" font-family="sans-serif" font-size="13" fill="#94a3b8">Search...</text>
+  </g>
+  <!-- Header Badge & Avatar -->
+  <g transform="translate(860, 20)">
+    <rect width="260" height="30" rx="15" fill="url(#primaryGrad)"/>
+    <text x="130" y="20" font-family="sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">🔥 Gemini 1.5 Flash Powered</text>
+    <circle cx="285" cy="15" r="16" fill="#cbd5e1" stroke="#4f46e5" stroke-width="2"/>
+    <text x="285" y="20" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">U</text>
+  </g>
+
+  <!-- Hero Search Banner -->
+  <g transform="translate(255, 95)">
+    <rect width="920" height="150" rx="12" fill="url(#headerGrad)"/>
+    <text x="460" y="55" font-family="sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Browse All Templates</text>
+    <text x="460" y="80" font-family="sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">What would you like to create today?</text>
+    
+    <g transform="translate(230, 95)">
+      <rect width="460" height="40" rx="8" fill="#ffffff"/>
+      <circle cx="25" cy="20" r="7" stroke="#4f46e5" stroke-width="2" fill="none"/>
+      <line x1="30" y1="25" x2="36" y2="31" stroke="#4f46e5" stroke-width="2"/>
+      <text x="50" y="25" font-family="sans-serif" font-size="13" fill="#64748b">Search templates (e.g. Code, Blog, YouTube)...</text>
+    </g>
+  </g>
+
+  <!-- Templates Grid -->
+  <!-- Card 1: Write Code -->
+  <g transform="translate(255, 270)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#e0e7ff"/>
+    <text x="43" y="48" font-family="monospace" font-size="20" font-weight="bold" fill="#4f46e5" text-anchor="middle">&lt;/&gt;</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Write Code</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">AI model to generate</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">programming code in</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">any modern language.</text>
+  </g>
+
+  <!-- Card 2: Blog Title -->
+  <g transform="translate(490, 270)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#fef3c7"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">✍️</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Blog Title</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Generate click-worthy,</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">viral titles based on</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">your niche &amp; outline.</text>
+  </g>
+
+  <!-- Card 3: Blog Content -->
+  <g transform="translate(725, 270)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#fee2e2"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">📄</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Blog Content</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Craft in-depth, high</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">quality blog articles in</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">rich text format.</text>
+  </g>
+
+  <!-- Card 4: YouTube Description -->
+  <g transform="translate(960, 270)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#ffedd5"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">▶️</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">YouTube Desc</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Create engaging video</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">descriptions with</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">emojis &amp; hashtags.</text>
+  </g>
+
+  <!-- Card 5: Explain Code -->
+  <g transform="translate(255, 470)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#ecfdf5"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">💡</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Explain Code</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Deconstruct complex</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">code line-by-line</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">with simple insights.</text>
+  </g>
+
+  <!-- Card 6: Bug Detector -->
+  <g transform="translate(490, 470)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#fdf4ff"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">🐛</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Bug Detector</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Pinpoint error bugs</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">and get tested bug fixes</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">and code alternatives.</text>
+  </g>
+
+  <!-- Card 7: Grammar Checker -->
+  <g transform="translate(725, 470)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#eff6ff"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">🔍</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Grammar Check</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Refine your writing,</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">fix punctuation and</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">spelling mistakes.</text>
+  </g>
+
+  <!-- Card 8: Rewrite Article -->
+  <g transform="translate(960, 470)" filter="url(#shadow)">
+    <rect width="215" height="175" rx="10" fill="#ffffff"/>
+    <rect x="20" y="20" width="46" height="46" rx="8" fill="#f0fdfa"/>
+    <text x="43" y="48" font-family="sans-serif" font-size="20" text-anchor="middle">🔄</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Rewrite Article</text>
+    <text x="20" y="118" font-family="sans-serif" font-size="12" fill="#64748b">Rewrite articles into</text>
+    <text x="20" y="134" font-family="sans-serif" font-size="12" fill="#64748b">100% plagiarism-free,</text>
+    <text x="20" y="150" font-family="sans-serif" font-size="12" fill="#64748b">unique content.</text>
+  </g>
+</svg>

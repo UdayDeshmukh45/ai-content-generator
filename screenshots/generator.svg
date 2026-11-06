@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="#f8fafc"/>
+
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="1200" height="65" fill="#ffffff" filter="url(#shadow)"/>
+  <g transform="translate(40, 18)">
+    <rect width="90" height="32" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="25" y="21" font-family="sans-serif" font-size="13" font-weight="600" fill="#334155">← Back</text>
+  </g>
+  <text x="600" y="38" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a" text-anchor="middle">AI Content Studio</text>
+  <g transform="translate(1070, 18)">
+    <circle cx="16" cy="16" r="16" fill="#cbd5e1" stroke="#4f46e5" stroke-width="2"/>
+    <text x="16" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">U</text>
+  </g>
+
+  <!-- Main Grid Container -->
+  <!-- Left Column: FormSection (380px wide) -->
+  <g transform="translate(40, 90)" filter="url(#shadow)">
+    <rect width="360" height="550" rx="12" fill="#ffffff"/>
+    
+    <!-- Template Icon & Title -->
+    <rect x="25" y="25" width="60" height="60" rx="10" fill="#e0e7ff"/>
+    <text x="55" y="62" font-family="monospace" font-size="28" font-weight="bold" fill="#4f46e5" text-anchor="middle">&lt;/&gt;</text>
+    
+    <text x="25" y="115" font-family="sans-serif" font-size="22" font-weight="bold" fill="#0f172a">Write Code</text>
+    <text x="25" y="138" font-family="sans-serif" font-size="13" fill="#64748b">AI model to generate programming code in any language</text>
+
+    <!-- Field 1: Programming Language -->
+    <text x="25" y="190" font-family="sans-serif" font-size="13" font-weight="600" fill="#1e293b">Programming Language *</text>
+    <rect x="25" y="202" width="310" height="38" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="37" y="226" font-family="sans-serif" font-size="13" fill="#0f172a">TypeScript / Next.js</text>
+
+    <!-- Field 2: Description -->
+    <text x="25" y="275" font-family="sans-serif" font-size="13" font-weight="600" fill="#1e293b">Enter description of code you want *</text>
+    <rect x="25" y="287" width="310" height="150" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="37" y="312" font-family="sans-serif" font-size="12" fill="#334155">Create a reusable React hook for fetching</text>
+    <text x="37" y="332" font-family="sans-serif" font-size="12" fill="#334155">paginated records with caching, loading</text>
+    <text x="37" y="352" font-family="sans-serif" font-size="12" fill="#334155">state and error handling.</text>
+
+    <!-- Submit Button -->
+    <g transform="translate(25, 465)">
+      <rect width="310" height="48" rx="8" fill="url(#primaryGrad)"/>
+      <text x="155" y="29" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">✨ Generate Content</text>
+    </g>
+  </g>
+
+  <!-- Right Column: OutputSection (Toast UI Editor) -->
+  <g transform="translate(430, 90)" filter="url(#shadow)">
+    <rect width="730" height="550" rx="12" fill="#ffffff"/>
+    
+    <!-- Output Header -->
+    <text x="25" y="38" font-family="sans-serif" font-size="18" font-weight="bold" fill="#0f172a">Your Result</text>
+    <g transform="translate(635, 18)">
+      <rect width="75" height="30" rx="6" fill="#4f46e5"/>
+      <text x="37" y="20" font-family="sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">📋 Copy</text>
+    </g>
+    <line x1="0" y1="60" x2="730" y2="60" stroke="#f1f5f9" stroke-width="1.5"/>
+
+    <!-- Toast UI Editor Toolbar Simulation -->
+    <rect x="20" y="75" width="690" height="38" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="35" y="99" font-family="sans-serif" font-size="13" font-weight="bold" fill="#475569">B</text>
+    <text x="60" y="99" font-family="sans-serif" font-size="13" font-style="italic" font-weight="bold" fill="#475569">I</text>
+    <text x="85" y="99" font-family="sans-serif" font-size="13" font-weight="bold" fill="#475569">H</text>
+    <line x1="108" y1="83" x2="108" y2="105" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="125" y="99" font-family="monospace" font-size="12" fill="#475569">&lt;/&gt;</text>
+    <text x="155" y="99" font-family="sans-serif" font-size="12" fill="#475569">🔗</text>
+    <text x="185" y="99" font-family="sans-serif" font-size="12" fill="#475569">🖼️</text>
+    <text x="630" y="99" font-family="sans-serif" font-size="12" font-weight="600" fill="#4f46e5">WYSIWYG</text>
+
+    <!-- Editor Content Preview (Code block + formatted text) -->
+    <g transform="translate(25, 130)">
+      <text x="0" y="15" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1e293b">Here is your custom TypeScript hook:</text>
+      
+      <!-- Code Block Container -->
+      <rect x="0" y="35" width="680" height="310" rx="8" fill="#0f172a"/>
+      <g transform="translate(20, 60)" font-family="Consolas, Monaco, monospace" font-size="12" fill="#f8fafc">
+        <text y="0"><tspan fill="#38bdf8">import</tspan> { useState, useEffect } <tspan fill="#38bdf8">from</tspan> <tspan fill="#a7f3d0">'react'</tspan>;</text>
+        <text y="22"></text>
+        <text y="44"><tspan fill="#38bdf8">interface</tspan> <tspan fill="#fbbf24">UsePaginationProps</tspan>&lt;<tspan fill="#fbbf24">T</tspan>&gt; {</text>
+        <text y="66">  fetcher: (page: <tspan fill="#38bdf8">number</tspan>) =&gt; Promise&lt;T[]&gt;;</text>
+        <text y="88">  pageSize?: <tspan fill="#38bdf8">number</tspan>;</text>
+        <text y="110">}</text>
+        <text y="132"></text>
+        <text y="154"><tspan fill="#38bdf8">export function</tspan> <tspan fill="#818cf8">usePagination</tspan>&lt;<tspan fill="#fbbf24">T</tspan>&gt;({ fetcher }: <tspan fill="#fbbf24">UsePaginationProps</tspan>&lt;<tspan fill="#fbbf24">T</tspan>&gt;) {</text>
+        <text y="176">  <tspan fill="#38bdf8">const</tspan> [data, setData] = useState&lt;T[]&gt;([]);</text>
+        <text y="198">  <tspan fill="#38bdf8">const</tspan> [loading, setLoading] = useState&lt;<tspan fill="#38bdf8">boolean</tspan>&gt;(<tspan fill="#f43f5e">false</tspan>);</text>
+        <text y="220">  <tspan fill="#38bdf8">const</tspan> [page, setPage] = useState&lt;<tspan fill="#38bdf8">number</tspan>&gt;(<tspan fill="#f59e0b">1</tspan>);</text>
+        <text y="242">  <tspan fill="#64748b">// Automatically handles request state &amp; paging</text>
+      </g>
+
+      <text x="0" y="375" font-family="sans-serif" font-size="13" font-weight="600" fill="#4f46e5">✓ Successfully generated with Gemini 1.5 Flash in 1.2s</text>
+    </g>
+  </g>
+</svg>

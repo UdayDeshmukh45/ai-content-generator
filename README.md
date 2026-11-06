@@ -4,6 +4,26 @@ A full-stack, AI-powered content generation SaaS application built with **Next.j
 
 ---
 
+## 📸 Screenshots & UI Preview
+
+### 🏠 Dashboard & AI Templates
+Explore 10+ pre-configured AI generation templates with search and category filtering.
+![Dashboard & Templates](screenshots/dashboard.svg)
+
+---
+
+### ✨ Content Generator & Rich Text WYSIWYG Editor
+Generate custom code, blog posts, and copy with real-time markdown formatting and 1-click clipboard copy.
+![AI Content Studio](screenshots/generator.svg)
+
+---
+
+### 🚀 Landing Page
+Modern responsive landing page featuring smooth gradients and product highlights.
+![Landing Page](screenshots/landing.svg)
+
+---
+
 ## ✨ Features
 
 - 🧠 **Google Gemini 1.5 Flash Integration**: Ultra-fast content generation with high token context and custom prompt pipelines.
